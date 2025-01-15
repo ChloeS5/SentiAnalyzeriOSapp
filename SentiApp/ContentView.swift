@@ -11,9 +11,8 @@ struct ContentView: View {
     var body: some View {
         
         
-        // I'm doing this because of ..
-        // Watch out for this ..
-        TabView {
+        // Change VStack -> TabView if using manual tabs in this page, but rn MainView controls tabs
+        VStack {
            
             //Image for the plant
             Image(systemName: "chart.line.uptrend.xyaxis.circle.fill")
@@ -30,10 +29,10 @@ struct ContentView: View {
                 .cornerRadius(10)
             
             // Create first tab
-                .tabItem {
-                    Image(systemName: "pencil")
-                    Text("Tab 1")
-                }
+//                .tabItem {
+//                    Image(systemName: "pencil")
+//                    Text("Tab 1")
+//                }
             
               Button("Tap to start")
             {print("Helo!")
@@ -43,11 +42,11 @@ struct ContentView: View {
             .tint(Color(hue: 0.705, saturation: 0.964, brightness: 0.474))
             
            // Create 2nd tab
-            .tabItem {
-                Image(systemName: "plus")
-                Text("Tab 2")
-                
-            }
+//            .tabItem {
+//                Image(systemName: "plus")
+//                Text("Tab 2")
+//                
+//            }
         }
         .padding()
     }

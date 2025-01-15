@@ -4,12 +4,34 @@
 //
 //  Created by Chloe Sepulveda on 2025-01-14.
 //
+// File Purpose: Switching tabs
 
 import SwiftUI
 
+// defind Order to prevent "Cannot find order in scope" issue
+class Order: ObservableObject {
+}
+
+
 struct MainView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            ContentView()
+                .tabItem {
+                    Label("Menue", systemImage: "list.dash")
+                }
+            
+            // TASK: create a AnalyzeView page to refer to this
+            AnalyzeView()
+                .tabItem {
+                    Label("Analyze", systemImage: "text.page.badge.magnifyingglass")
+                }
+            
+            SettingsView()
+                .tabItem {
+                    Label("Settings", systemImage: "gearshape")
+                }
+        }
     }
 }
 
