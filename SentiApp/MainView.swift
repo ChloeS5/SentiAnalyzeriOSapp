@@ -27,6 +27,11 @@ struct MainView: View {
                     Label("Analyze", systemImage: "text.page.badge.magnifyingglass")
                 }
             
+            DataDashboard()
+                .tabItem {
+                    Label("Dashboard", systemImage: "chart.bar.xaxis.ascending")
+                }
+            
             SettingsView()
                 .tabItem {
                     Label("Settings", systemImage: "gearshape")

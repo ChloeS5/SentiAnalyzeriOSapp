@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		C7D6E7662D3DFE4A0076453F /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = C7D6E7652D3DFE400076453F /* main.py */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		C780414A2D29336700E44D80 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -31,7 +27,6 @@
 		C78041392D29336200E44D80 /* SentiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SentiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78041492D29336700E44D80 /* SentiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78041532D29336700E44D80 /* SentiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7D6E7652D3DFE400076453F /* main.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -97,7 +92,6 @@
 				C780414C2D29336700E44D80 /* SentiAppTests */,
 				C78041562D29336700E44D80 /* SentiAppUITests */,
 				C780413A2D29336200E44D80 /* Products */,
-				C7D6E7652D3DFE400076453F /* main.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,7 +226,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7D6E7662D3DFE4A0076453F /* main.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
