@@ -4,7 +4,7 @@
 //
 //  Created by Chloe Sepulveda on 2025-01-04.
 //
-
+// Original Jan.24 Code,
 import SwiftUI
 
 struct ContentView: View {
@@ -22,6 +22,8 @@ struct ContentView: View {
             /*print("Hi")*/
             Text("BizTrendX")
                 .font(.system(size: 30, weight: .heavy, design: .default))
+                .foregroundColor(Color.black)
+                .tint(Color(hue: 0.705, saturation: 0.964, brightness: 0.474))
                 
                 .bold()
                 .padding(.top, 13.0)
@@ -35,11 +37,11 @@ struct ContentView: View {
 //                }
             
               Button("Tap to start")
-            {print("Helo!")
+            {print("Hello!")
              }
             .buttonStyle(.borderedProminent)
             .font(Font.system(size: 25))
-            .tint(Color(hue: 0.705, saturation: 0.964, brightness: 0.474))
+            .tint(Color(hue: 1.0, saturation: 0.083, brightness: 0.157))
             
            // Create 2nd tab
 //            .tabItem {

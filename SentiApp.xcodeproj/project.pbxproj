@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C7D6E7662D3DFE4A0076453F /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = C7D6E7652D3DFE400076453F /* main.py */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C780414A2D29336700E44D80 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +31,25 @@
 		C78041392D29336200E44D80 /* SentiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SentiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78041492D29336700E44D80 /* SentiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78041532D29336700E44D80 /* SentiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D6E7652D3DFE400076453F /* main.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C7D6E7642D3DFE350076453F /* Exceptions for "SentiApp" folder in "SentiApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Utils.swift,
+			);
+			target = C78041382D29336200E44D80 /* SentiApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C780413B2D29336200E44D80 /* SentiApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C7D6E7642D3DFE350076453F /* Exceptions for "SentiApp" folder in "SentiApp" target */,
+			);
 			path = SentiApp;
 			sourceTree = "<group>";
 		};
@@ -79,6 +97,7 @@
 				C780414C2D29336700E44D80 /* SentiAppTests */,
 				C78041562D29336700E44D80 /* SentiAppUITests */,
 				C780413A2D29336200E44D80 /* Products */,
+				C7D6E7652D3DFE400076453F /* main.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +121,7 @@
 				C78041352D29336200E44D80 /* Sources */,
 				C78041362D29336200E44D80 /* Frameworks */,
 				C78041372D29336200E44D80 /* Resources */,
+				C7D6E7672D3E00280076453F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -212,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D6E7662D3DFE4A0076453F /* main.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +251,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C7D6E7672D3E00280076453F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C78041352D29336200E44D80 /* Sources */ = {
