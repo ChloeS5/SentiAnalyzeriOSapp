@@ -5,11 +5,9 @@
 ## Features
 - Settings
 - Dashboard
-- Analyze tab: Analyze any sentiment by inputting it in the text box -> Below will display immediate result of sentiment analysis
+- Analyze tab: Analyze any text by inputting it in the text box -> Below will display immediate result of sentiment analysis
 
 ## Setup
-1. Install XCode on your device
+1. Install Xcode on your device
 2. Open SentiApp.xcodeproj file in Xcode
 3. Enter SandBox mode (via the Play button) to experience simulation of the iPhone experience
-
-## Documentation
