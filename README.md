@@ -11,3 +11,6 @@
 1. Install Xcode on your device
 2. Open SentiApp.xcodeproj file in Xcode
 3. Enter SandBox mode (via the Play button) to experience simulation of the iPhone experience
+
+## License
+This repository is licensed under GNU General Public License v2.0
